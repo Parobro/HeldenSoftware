@@ -1,0 +1,93 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package helden.framework.D;
+
+import helden.framework.D.F;
+import helden.framework.D.H;
+import helden.framework.D.P;
+import helden.framework.D.o0OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO;
+import helden.framework.D.void;
+import helden.framework.OOoO.R;
+import helden.framework.oooo.oo0o_0;
+import java.util.ArrayList;
+import java.util.List;
+
+/*
+ * Illegal identifiers - consider using --renameillegalidents true
+ */
+public class Q<T>
+extends P {
+    private void<T> \u00d3\u00d3\u00f8000;
+    private T \u00d2\u00d3\u00f8000;
+
+    public Q(void<T> void_, T t, int n) {
+        super(n, void_.\u00d400000());
+        if (t instanceof o0OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO) {
+            o0OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO o0OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO2 = (o0OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO)t;
+            this.o00000(void_.\u00f500000() + " (" + o0OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO2.new() + ")");
+        } else {
+            this.o00000(void_.\u00f500000() + " (" + t.toString() + ")");
+        }
+        this.\u00d3\u00d3\u00f8000 = void_;
+        this.\u00d2\u00d3\u00f8000 = t;
+    }
+
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        Q<T> q = new Q<T>(this.\u00d3\u00d3\u00f8000, this.\u00d2\u00d3\u00f8000, this.o\u00d20000());
+        q.o00000(this.\u00f5o0000());
+        return q;
+    }
+
+    public boolean thisObject() {
+        return this.\u00d3\u00d3\u00f8000 != null && this.\u00d3\u00d3\u00f8000 instanceof F;
+    }
+
+    public T \u00d8\u00d30000() {
+        return this.\u00d2\u00d3\u00f8000;
+    }
+
+    public String \u00d5\u00d30000() {
+        return this.\u00d4\u00d30000().\u00f500000();
+    }
+
+    @Override
+    public int o\u00d20000() {
+        if (this.thisObject()) {
+            return ((F)this.\u00d3\u00d3\u00f8000).\u00d300000((R)this.\u00d8\u00d30000());
+        }
+        return super.o\u00d20000();
+    }
+
+    public void<T> \u00d4\u00d30000() {
+        return this.\u00d3\u00d3\u00f8000;
+    }
+
+    @Override
+    public List<H> O\u00d20000() {
+        if (this.\u00d3\u00d3\u00f8000 != null) {
+            return this.\u00d3\u00d3\u00f8000.\u00d800000(this.\u00d2\u00d3\u00f8000);
+        }
+        return new ArrayList<H>();
+    }
+
+    @Override
+    public oo0o_0 \u00d5O0000() {
+        if (this.thisObject()) {
+            return ((F)this.\u00d3\u00d3\u00f8000).\u00d400000((R)this.\u00d8\u00d30000());
+        }
+        return super.\u00d5O0000();
+    }
+
+    public void new(T t) {
+        this.\u00d2\u00d3\u00f8000 = t;
+    }
+
+    @Override
+    public void new(int n) {
+        super.new(n);
+        this.\u00d3\u00d3\u00f8000.o00000(this.\u00d2\u00d3\u00f8000, n);
+    }
+}
+
