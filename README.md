@@ -1,16 +1,21 @@
-# 🦸‍♂️ HeldenSoftware src  
+# 🛡️ HeldenSoftware-Java  
 
 ## ⚠️ Disclaimer  
-This repository contains **decompiled code** from HeldenSoftware. It is provided **for educational and research purposes only**.  
-Use this code at your own risk and ensure compliance with all applicable laws.
+This project is part of a **vocational training** in IT and is developed with a **modular approach** to allow future expansions, including **multi-user support** for Game Masters and players.  
 
 ## 📌 About  
-HeldenSoftware is an application originally developed for the comunity of Das Schwarze Auge. Since the original source code is unavailable, this version was **reconstructed through reverse engineering**.
+**HeldenSoftware** is a tool originally developed for the **Das Schwarze Auge (DSA) community**. Since the original source code is unavailable, this version was **reconstructed through reverse engineering** for **educational and research purposes**. 
 
-## ⚠️ Legal Notice  
-- This repository is **not for commercial use**.  
-- If HeldenSoftware is copyrighted, ensure you have the necessary **license or permission**.  
-- **Reverse engineering laws vary by country**—verify legal compliance before using this code.  
+## ⚠️ Important Notice  
+This repository contains **decompiled code** from **HeldenSoftware**.  
+It is provided **strictly for learning, analysis, and research purposes only**.  
+You are responsible for ensuring compliance with **all applicable laws** when using or modifying this code.  
+
+## ⚖️ Legal Notice  
+- This repository is **not intended for commercial use**.  
+- All trademarks, names, and rules belong to their **respective owners**.  
+- If HeldenSoftware is copyrighted, ensure you have the necessary **license or permission** before using it.  
+- **Reverse engineering laws vary by country**—please verify legal compliance before using this code.  
 
 ---
-If you have concerns, contact the original developer.
+For any concerns, please contact the original developer.
