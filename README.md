@@ -1,4 +1,4 @@
-# HeldenSoftware Decompilation
+# Decompilation Herosoftware 
 
 This repository contains the decompiled code of **HeldenSoftware 5.5.3**.  
 The goal is to analyze the functionality of the software and develop a modern version using **C# and WPF**.
