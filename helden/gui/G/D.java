@@ -1,0 +1,39 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package helden.gui.G;
+
+import helden.framework.held.Object.O0OO;
+import helden.framework.held.OooOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO;
+import javax.swing.JPanel;
+
+/*
+ * Illegal identifiers - consider using --renameillegalidents true
+ */
+public abstract class D {
+    private O0OO o00000;
+
+    public D(O0OO o0OO2) {
+        this.o00000 = o0OO2;
+    }
+
+    public abstract String \u00d200000();
+
+    public O0OO \u00d600000() {
+        return this.o00000;
+    }
+
+    public abstract JPanel super();
+
+    public void class() {
+    }
+
+    public boolean \u00d400000() {
+        return true;
+    }
+
+    protected OooOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO \u00d300000() {
+        return this.o00000.\u00d800000();
+    }
+}
+

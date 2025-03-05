@@ -1,0 +1,48 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package helden.model.dsa41.orden;
+
+import helden.framework.C.I;
+import helden.framework.C.J;
+import helden.framework.C.K;
+import helden.framework.C.Oo0O;
+import helden.framework.OoOO.return;
+import helden.framework.OoOO.voidsuper;
+import helden.framework.bedingungen.Bedingung;
+import helden.framework.bedingungen.BedingungsVerknuepfung;
+import helden.framework.bedingungen.VerknuepfungsArt;
+import helden.framework.oooo.b_0;
+import helden.framework.oooo.oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo_1;
+import helden.model.dsa41.orden.BasisOrden;
+import java.util.ArrayList;
+
+public class Rondraorden
+extends BasisOrden {
+    public Rondraorden(String string) {
+        super(string);
+    }
+
+    @Override
+    public ArrayList<helden.framework.oooo.a.b_0> getBedingteWerte() {
+        ArrayList<helden.framework.oooo.a.b_0> arrayList = new ArrayList<helden.framework.oooo.a.b_0>();
+        arrayList.add(new helden.framework.oooo.a.b_0((Object)new return(b_0.\u00f5\u00f5\u00d2000, 1), Bedingung.hatKeinKarma()));
+        return arrayList;
+    }
+
+    @Override
+    public BedingungsVerknuepfung getNotwendigeVoraussetzungen() {
+        return new BedingungsVerknuepfung(VerknuepfungsArt.o00000, Bedingung.hatTalentgruppenTalente(oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo_1.\u00d6O0000, 2, 7), Bedingung.hat(voidsuper.\u00d4\u00d2\u00d8000, (Integer)7), Bedingung.hat(voidsuper.\u00d4\u00f8\u00d5000, (Integer)7), Bedingung.hat(voidsuper.O0\u00d6000, (Integer)7), Bedingung.hat(voidsuper.oo\u00d6000, (Integer)7));
+    }
+
+    @Override
+    public Oo0O getVorteile() {
+        Oo0O oo0O = super.getVorteile();
+        oo0O.\u00d300000(K.o00000(I.\u00d3\u00d30000, "gegen\u00fcber dem Orden"));
+        J j2 = (J)K.o00000(I.\u00d8\u00f60000);
+        j2.oO0000(20);
+        oo0O.\u00d300000(j2);
+        return oo0O;
+    }
+}
+

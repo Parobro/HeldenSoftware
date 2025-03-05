@@ -1,0 +1,185 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package helden.gui.super.OooO.ooOO;
+
+import helden.framework.held.Object.OOoo;
+import helden.gui.super.OooO.O0OO.B;
+import helden.gui.super.OooO.new.OoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO;
+import helden.gui.super.OooO.ooOO.OoOO;
+import helden.gui.super.OooO.super.o0OO;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import java.util.ArrayList;
+import java.util.TreeSet;
+import javax.swing.DefaultListModel;
+import javax.swing.JButton;
+import javax.swing.JDialog;
+import javax.swing.JOptionPane;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
+
+/*
+ * Illegal identifiers - consider using --renameillegalidents true
+ */
+public class super
+implements ActionListener,
+ListSelectionListener {
+    private o0OO \u00d300000;
+    private OoOO new;
+    private OoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO o00000;
+    private helden.gui.super.OooO.super.B \u00d400000;
+
+    public super(helden.gui.super.OooO.super.B b, JDialog jDialog) {
+        this.\u00d400000 = b;
+        this.\u00d300000 = new o0OO(this);
+        this.\u00d300000.\u00f500000().OO0000().setVisible(false);
+        this.new = new OoOO(this, jDialog);
+        this.o00000();
+        this.new.setAlwaysOnTop(true);
+        this.new.setModal(true);
+        this.new.setLocation(jDialog.getLocation());
+        this.new.setSize(800, 500);
+        this.\u00d400000();
+        this.new.setVisible(true);
+    }
+
+    @Override
+    public void actionPerformed(ActionEvent actionEvent) {
+        if (actionEvent.getSource() instanceof JButton) {
+            if (actionEvent.getSource() == this.new.int()) {
+                OOoo.o00000().o00000(this.o00000);
+                this.o00000();
+            } else if (actionEvent.getSource() == this.new.\u00d2O0000()) {
+                this.\u00d500000();
+            } else if (actionEvent.getSource() == this.new.\u00d4O0000()) {
+                this.\u00f400000();
+            } else if (actionEvent.getSource() == this.new.class()) {
+                this.\u00f500000();
+            } else if (actionEvent.getSource() == this.new.do()) {
+                JOptionPane.showConfirmDialog(this.new, "Noch nicht implementiert");
+            }
+        }
+    }
+
+    public OoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO \u00d300000() {
+        return this.o00000;
+    }
+
+    public o0OO return() {
+        return this.\u00d300000;
+    }
+
+    public void new() {
+        this.\u00d300000.if();
+        this.new.\u00d600000().setText(this.o00000.\u00d600000());
+        this.new.\u00f600000().setText(this.o00000.toString());
+    }
+
+    public void o00000() {
+        ArrayList<OoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO> arrayList = OOoo.o00000().o00000("Alle");
+        this.new.\u00f800000().removeListSelectionListener(this);
+        String string = this.new.\u00d800000().getText().toLowerCase();
+        DefaultListModel<OoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO> defaultListModel = new DefaultListModel<OoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO>();
+        for (OoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO ooOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO2 : arrayList) {
+            if (!ooOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO2.toString().toLowerCase().contains(string) && !string.trim().equals("") && !ooOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO2.\u00d600000().toLowerCase().contains(string)) continue;
+            defaultListModel.addElement(ooOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO2);
+        }
+        this.new.\u00f800000().setModel(defaultListModel);
+        this.new.\u00f800000().addListSelectionListener(this);
+        if (this.o00000 == null) {
+            this.new.\u00f800000().setSelectedIndex(0);
+        } else {
+            int n = defaultListModel.indexOf(this.o00000);
+            if (n > 0) {
+                this.new.\u00f800000().setSelectedIndex(n);
+            } else {
+                this.new.\u00f800000().setSelectedIndex(0);
+            }
+        }
+    }
+
+    @Override
+    public void valueChanged(ListSelectionEvent listSelectionEvent) {
+        this.\u00d800000();
+        if (this.new.\u00f800000().getSelectedIndex() >= 0) {
+            this.o00000 = (OoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO)this.new.\u00f800000().getSelectedValue();
+            this.new();
+        }
+    }
+
+    private void \u00d400000() {
+        this.new.addWindowListener(new WindowAdapter(){
+
+            @Override
+            public void windowClosed(WindowEvent windowEvent) {
+            }
+
+            @Override
+            public void windowClosing(WindowEvent windowEvent) {
+                if (super.this.return().new()) {
+                    super.this.\u00d800000();
+                    super.this.new.dispose();
+                } else {
+                    JOptionPane.showMessageDialog(super.this.new, "Einer der Kommentartexte ist zu lang");
+                }
+            }
+        });
+    }
+
+    private void \u00f400000() {
+        String string = null;
+        string = JOptionPane.showInputDialog(this.new, "VariantenName festlegen", "bsp");
+        if (string == null) {
+            return;
+        }
+        TreeSet<String> treeSet = new TreeSet<String>();
+        for (B object2 : this.\u00d400000.\u00f500000()) {
+            treeSet.add(object2.\u00d600000());
+        }
+        Object[] objectArray = treeSet.toArray();
+        String string2 = (String)JOptionPane.showInputDialog(this.new, "Neue Variante f\u00fcr", "", -1, null, objectArray, objectArray[0]);
+        if (string2 != null) {
+            OoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO ooOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO2 = null;
+            for (int i2 = 0; i2 < this.\u00d400000.\u00f500000().size(); ++i2) {
+                if (!this.\u00d400000.\u00f500000().get(i2).\u00d600000().equals(string2)) continue;
+                ooOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO2 = new OoOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO(this.\u00d400000.\u00f500000().get(i2));
+                break;
+            }
+            ooOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO2.o00000(string);
+            OOoo.o00000().new(ooOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO2);
+            this.o00000 = ooOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO2;
+            this.o00000();
+            this.new();
+        }
+    }
+
+    private void \u00f500000() {
+        this.\u00d800000();
+        this.new.dispose();
+    }
+
+    private void \u00d800000() {
+        int n;
+        if ((this.\u00d300000.return() || this.new.\u00f600000().wurdeTextfieldVeraendert()) && (n = JOptionPane.showConfirmDialog(this.new, "Sollen die \u00c4nderungen gespeichert werden?")) == 0) {
+            this.\u00d500000();
+        }
+    }
+
+    private void \u00d500000() {
+        if (this.return().new()) {
+            this.\u00d300000().o00000(this.\u00d300000.\u00d800000());
+            if (this.new.\u00f600000().getText().equals("")) {
+                this.\u00d300000().o00000("Leerer Name");
+            } else {
+                this.\u00d300000().o00000(this.new.\u00f600000().getText());
+            }
+            this.new();
+        } else {
+            JOptionPane.showMessageDialog(this.new, "Einer der Texte ist zu lang!");
+        }
+    }
+}
+

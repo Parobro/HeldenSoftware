@@ -1,0 +1,149 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package helden.model.tharun.kultur;
+
+import helden.framework.C.I;
+import helden.framework.C.K;
+import helden.framework.C.Oo0O;
+import helden.framework.D.OOOo;
+import helden.framework.Geschlecht;
+import helden.framework.OoOO.G;
+import helden.framework.OoOO.N;
+import helden.framework.OoOO.voidsuper;
+import helden.framework.bedingungen.Bedingung;
+import helden.framework.d.oooo_0;
+import helden.framework.held.Object.floatsuper;
+import helden.framework.int.super;
+import helden.framework.oooo.o0oo_2;
+import helden.framework.oooo.oo0o_0;
+import helden.framework.oooo.oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo_1;
+import helden.model.tharun.kultur.BasisTharunKulturen;
+import helden.model.tharun.profession.NiedererGuerai;
+import java.util.ArrayList;
+
+public class Tharun
+extends BasisTharunKulturen {
+    public Tharun() {
+        super("Tharun");
+    }
+
+    public Tharun(Geschlecht geschlecht) {
+        super(geschlecht, "Tharun");
+    }
+
+    @Override
+    public void bestimmeTalentwerte(int n) {
+        super.bestimmeTalentwerte(n);
+        this.addTalentwert(N.floatsuper().\u00d200000("Dolche"), 1);
+        this.addTalentwert(N.floatsuper().\u00d200000("Raufen"), 1);
+        this.addTalentwert(N.floatsuper().\u00d200000("Ringen"), 1);
+        this.addTalentwert(N.floatsuper().\u00d200000("K\u00f6rperbeherrschung"), 2);
+        this.addTalentwert(N.floatsuper().\u00d200000("Singen"), 1);
+        this.addTalentwert(N.floatsuper().\u00d200000("Tanzen"), 1);
+        this.addTalentwert(N.floatsuper().\u00d200000("Zechen"), 1);
+        this.addTalentwert(N.floatsuper().\u00d200000("Etikette"), 2);
+        this.addTalentwert(N.floatsuper().\u00d200000("Menschenkenntnis"), 2);
+        this.addTalentwert(N.floatsuper().\u00d200000("\u00dcberreden"), 2);
+        this.addTalentwert(N.floatsuper().\u00d200000("Fischen/Angeln"), 1);
+        this.addTalentwert(N.floatsuper().\u00d200000("Geografie"), 2);
+        this.addTalentwert(N.floatsuper().\u00d200000("G\u00f6tter und Kulte"), 2);
+        this.addTalentwert(N.floatsuper().\u00d200000("Rechnen"), 1);
+        this.addTalentwert(voidsuper.\u00f8\u00f4\u00d5000, 1);
+        this.addTalentwert(G.\u00f8O\u00f5000, 2);
+        this.addTalentwert(N.floatsuper().\u00d200000("Heilkunde: Wunden"), 2);
+        this.addTalentwert(N.floatsuper().\u00d200000("Kochen"), 1);
+        this.addTalentwert(N.floatsuper().\u00d200000("Malen/Zeichnen"), 2);
+        this.addTalentwert(N.floatsuper().\u00d200000("Schneidern"), 1);
+    }
+
+    @Override
+    public ArrayList<I> getEmpfohleneVorteile() {
+        ArrayList<I> arrayList = super.getEmpfohleneVorteile();
+        arrayList.add(K.o00000("Soziale Anpassungsf\u00e4higkeit"));
+        arrayList.add(K.o00000("Gebildet"));
+        arrayList.add(K.o00000("Ausr\u00fcstungsvorteil"));
+        arrayList.add(K.o00000("Richtungssinn"));
+        arrayList.add(K.o00000("Resistenz gegen Krankheiten"));
+        arrayList.add(K.o00000("Arroganz"));
+        arrayList.add(K.o00000("Eitelkeit"));
+        arrayList.add(K.o00000("Meeresangst"));
+        return arrayList;
+    }
+
+    @Override
+    public String getID() {
+        return "K202";
+    }
+
+    @Override
+    public G getMuttersprache() {
+        return G.\u00d4\u00d2\u00f5000;
+    }
+
+    @Override
+    public ArrayList<super> getProfessionen(floatsuper floatsuper2) {
+        ArrayList<super> arrayList = super.getProfessionen(floatsuper2);
+        G g2 = this.getMuttersprache();
+        G g3 = this.getSchrift();
+        if (floatsuper2.Object(Bedingung.hat(Geschlecht.\u00d400000))) {
+            NiedererGuerai niedererGuerai = new NiedererGuerai(this.getGeschlecht(), g2, g3);
+            niedererGuerai.clearMoeglicheVarianten();
+            niedererGuerai.addMoeglicheVariante(niedererGuerai.getNiedererGueraiausTharun());
+            arrayList.add(niedererGuerai);
+        }
+        return arrayList;
+    }
+
+    @Override
+    public G getSchrift() {
+        return G.\u00f8O\u00f5000;
+    }
+
+    @Override
+    public OOOo getSonderfertigkeiten() {
+        OOOo oOOo = super.getSonderfertigkeiten();
+        oOOo.o00000(oooo_0.o00000("Kulturkunde", "Tharun"));
+        return oOOo;
+    }
+
+    @Override
+    public ArrayList<I> getUngeeigneteVorteile() {
+        ArrayList<I> arrayList = super.getUngeeigneteVorteile();
+        arrayList.add(K.o00000("Weltfremd"));
+        return arrayList;
+    }
+
+    @Override
+    public Oo0O getVorteile() {
+        Oo0O oo0O = super.getVorteile();
+        if (!this.istVariante(newifreturn)) {
+            oo0O.\u00d300000(K.o00000("Autorit\u00e4tsgl\u00e4ubig", 6));
+        }
+        oo0O.\u00d300000(K.o00000("Dunkelangst", 5));
+        return oo0O;
+    }
+
+    @Override
+    public void setAuswahlen() {
+        super.setAuswahlen();
+        ArrayList<oo0o_0> arrayList = new ArrayList<oo0o_0>();
+        arrayList.add(N.floatsuper().\u00d200000("Athletik"));
+        arrayList.add(N.floatsuper().\u00d200000("Klettern"));
+        arrayList.add(N.floatsuper().\u00d200000("Schwimmen"));
+        int[] nArray = new int[]{1};
+        this.\u00f5\u00d60O00.add(new o0oo_2(this, arrayList, nArray));
+        arrayList = new ArrayList();
+        arrayList.add(N.floatsuper().\u00d200000("Ackerbau"));
+        arrayList.add(N.floatsuper().\u00d200000("Viehzucht"));
+        arrayList.add(N.floatsuper().\u00d200000("Hauswirtschaft"));
+        int[] nArray2 = new int[]{1};
+        this.\u00f5\u00d60O00.add(new o0oo_2(this, arrayList, nArray2));
+        arrayList = new ArrayList();
+        arrayList.addAll(this.getSetting().get(oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo_1.\u00f800000));
+        arrayList.remove(this.getSchrift());
+        int[] nArray3 = new int[]{2};
+        this.\u00f5\u00d60O00.add(new o0oo_2(this, arrayList, nArray3));
+    }
+}
+

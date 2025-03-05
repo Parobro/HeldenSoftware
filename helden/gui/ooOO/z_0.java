@@ -1,0 +1,48 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package helden.gui.oooo;
+
+import helden.framework.held.OooOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO;
+import helden.gui.A;
+import helden.gui.OooO;
+import helden.gui.allgemein.GrosseMeditationPanel;
+import helden.gui.allgemein.Utils;
+import java.awt.event.ActionEvent;
+import javax.swing.AbstractAction;
+import javax.swing.JDialog;
+
+/*
+ * Renamed from helden.gui.ooOO.z
+ */
+public final class z_0
+extends AbstractAction {
+    private static z_0 o00000;
+    private A \u00d200000;
+
+    public static z_0 o00000(A a2) {
+        if (o00000 == null) {
+            o00000 = new z_0(a2);
+        }
+        return o00000;
+    }
+
+    private z_0(A a2) {
+        super("Karmalqueste ...", OooO.\u00d300000().\u00d400000());
+        this.\u00d200000 = a2;
+    }
+
+    @Override
+    public void actionPerformed(ActionEvent actionEvent) {
+        OooOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO oooOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO2 = this.\u00d200000.\u00d2O0000();
+        GrosseMeditationPanel grosseMeditationPanel = new GrosseMeditationPanel(this, oooOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO2, false);
+        JDialog jDialog = new JDialog(Utils.getFrame(this.\u00d200000), "Karmalqueste", true);
+        grosseMeditationPanel.getController().setDialog(jDialog);
+        jDialog.getContentPane().add(grosseMeditationPanel);
+        jDialog.setSize(250, 150);
+        Utils.zentriere(jDialog);
+        jDialog.setVisible(true);
+        this.\u00d200000.\u00d800000();
+    }
+}
+

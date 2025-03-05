@@ -1,0 +1,41 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+package helden.plugin.datenplugin.impl;
+
+import helden.framework.held.OooOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO;
+import helden.plugin.datenplugin.DatenPluginEreignis;
+import helden.plugin.datenplugin.DatenPluginEreignisWerkzeug;
+import java.util.ArrayList;
+
+public class DatenPluginEreignisWerkzeugImpl
+implements DatenPluginEreignisWerkzeug {
+    public DatenPluginEreignisWerkzeugImpl(OooOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO oooOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO2) {
+    }
+
+    @Override
+    public ArrayList<String> getEreignisarten() {
+        return null;
+    }
+
+    @Override
+    public ArrayList<DatenPluginEreignis> getEreignisse() {
+        return null;
+    }
+
+    @Override
+    public DatenPluginEreignis getLast() {
+        return null;
+    }
+
+    @Override
+    public boolean undo() {
+        return false;
+    }
+
+    @Override
+    public boolean undoMoeglich() {
+        return false;
+    }
+}
+
