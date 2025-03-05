@@ -18,4 +18,4 @@ You are responsible for ensuring compliance with **all applicable laws** when us
 - **Reverse engineering laws vary by country**—please verify legal compliance before using this code.  
 
 ---
-For any concerns, please contact the original developer.
+For any concerns, please contact the original developer: https://www.helden-software.de/.
